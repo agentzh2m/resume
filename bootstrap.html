@@ -39,30 +39,89 @@
       </div>
       <p></p>
       <div class="row">
-        <div class="col-md-4"><h3>Work Experience and Contest</h3><ul class="list-group">
-          <li class="list-group-item"><p class="lead">TH-CDC HSSBSS Project</p>Backend Developer writing a RESTFUL api
-          to pull the data from a database and do it a bit of data warehousing and manipulation</li>
-          <li class="list-group-item"><p class="lead">Thailand IT Contest Festival 2016 honorable mention prize (10K baht)</p>
-            for Developing an Arm Rehabilitator Device (I am in charge of making the game for it which is a whack-a-mole game)</li>
-          <li class="list-group-item"><p class="lead">ACM-ICPC Thailand Programming Contest 2016</p>
-          Take place at Mahasarakham University participate as muic_kiddiescript</li>
-        </ul></div>
-        <div class="col-md-4"><h3>Activities and Club</h3><ul class="list-group">
-          <li class="list-group-item">
-            <p class="lead">Vice President and Treasurer of Math Club</p>
-            For academic year 2016-2017 at MUIC
-          </li>
-          <li class="list-group-item">
-            <p class="lead">International Award Bronze and Silver </p>
-            for more information visit this <a href="http://www.intaward.org/about-the-award">link</a> earn
-            while study at The Regents School Thailand Bangkok
-            this link to the video I did for the silver award <a href="https://www.youtube.com/watch?v=LTpeI4zcikU">click here</a>
-          </li>
-          <li class="list-group-item">
-            <p class="lead">Microsoft Office Specialist </p>
-            For Access 2010 and Powerpoint 2010
-          </li>
-        </ul></div>
+        <div class="col-md-4"><h3>Work Experience and Contest</h3><div class="panel-group" id="work-exp">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#work-exp" href="#collapse1">
+        TH-CDC HSSBSS Project</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">Backend Developer writing a RESTFUL api
+      to pull the data from a database and do it a bit of data warehousing and manipulation.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#work-exp" href="#collapse2">
+        Thailand IT Contest Festival 2016 honorable mention prize (10K baht)</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Developing an Arm Rehabilitator Device
+        (I am in charge of making the game for it which is a whack-a-mole game)
+        <p></p>
+        <img src="/images/it_contest.jpg" alt="" class="img-responsive">
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#work-exp" href="#collapse3">
+        ACM-ICPC Thailand Programming Contest 2016</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">Take place at Mahasarakham University
+        participate as muic_kiddiescript
+      <img src="/images/acm_onsite.jpg" alt="" class="img-responsive"></div>
+    </div>
+  </div>
+  </div></div>
+        <div class="col-md-4"><h3>Activities and Club</h3><div class="panel-group" id="class-act">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#class-act" href="#collapse4">
+                Vice president and treasurer of Math club</a>
+              </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse in">
+              <div class="panel-body">For academic year 2016-2017 at MUIC.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#class-act" href="#collapse5">
+                International Award Bronze and Silver</a>
+              </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+              <div class="panel-body">for more information visit this <a href="http://www.intaward.org/about-the-award">link</a> earn
+              while study at The Regents School Thailand Bangkok
+              this link to the video I did for the silver award <a href="https://www.youtube.com/watch?v=LTpeI4zcikU">click here</a>
+              <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/LTpeI4zcikU" frameborder="0" allowfullscreen></iframe>
+            </div>
+            </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#class-act" href="#collapse6">
+                Microsoft Office Specialist</a>
+              </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+              <div class="panel-body">For Access 2010 and Powerpoint 2010</div>
+            </div>
+          </div>
+        </div></div>
         <div class="col-md-4"><h3>Programming skill</h3><ul class="list-group">
           <li class="list-group-item">
             <p class="lead">Python 2 and 3</p>
@@ -106,8 +165,13 @@
           </li>
         </ul></div>
       </div>
+      <div class="row">
+
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
