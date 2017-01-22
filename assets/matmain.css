@@ -1,5 +1,9 @@
 .my-profile {
   background-size: cover;
-  background: grey;
+  background: aqua;
   background: linear-gradient(#01ABDF, #BFE7FE);
+}
+
+.nav-bg {
+  background-color: #01A1FE;
 }
